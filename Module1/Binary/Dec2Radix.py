@@ -1,5 +1,5 @@
 '''
-   Decimal to Rqadix point binary conversion
+   Decimal to Radix point binary conversion
    INFX 1615 - Module 1 - Data Encoding
    cblouin@dal.ca
 
@@ -7,7 +7,6 @@
 '''
 # import log from the math library
 from math import log
-
 
 # Setting parameters
 decimal_value = 2.56
