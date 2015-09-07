@@ -75,6 +75,9 @@ if __name__ == "__main__":
     
     # Print the content after 
     RAM.PrettyPrint()    
+    
+    print("What you see abov is an empty sequence of 20 memory cells")
+    raw_input('Press enter to Write "Hello" starting at memory cell 0X5')
 
     # Write something starting at cell 0x5
     RAM.Write('Hello', '0X5')
@@ -82,9 +85,11 @@ if __name__ == "__main__":
     # Print the content after 
     RAM.PrettyPrint()
     
+    raw_input('Press enter to read 10 cells starting at memory address 0X3')
     print(RAM.Read('0X3', 10))  
     
     # Write something starting at cell 0x5
+    raw_input('Press enter to overwrite memory cell 0X5 from "H" to "J"')
     RAM.Write('J', '0X5')  
     
     # Print the content after 
