@@ -8,7 +8,7 @@ from math import log
 
 
 # Setting parameters
-decimal_value = 256
+decimal_value = 810052
 
 # The string that will be output
 binary_string = ''
