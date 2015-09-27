@@ -11,7 +11,7 @@ mychar = raw_input("Enter one character: ")
 # Ensures that it is only one charaacter long
 mychar = mychar[0]
 
-# Convert
+# Convert using a built-in function called "ord
 mychar_code = ord(mychar)
 
 # Print output

@@ -2,7 +2,7 @@
     cblouin@dal.ca
 '''
 
-# Some string to decode (keep only one uncommented)
+# Some string to decode (keep only one uncommented without a # character)
 #s = '00100110'
 s = '111010011010101110101011'
 
