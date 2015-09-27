@@ -30,6 +30,10 @@ else:
     # Step 2: fetch the whole character by picking the first 8 * byte numbers
     mychar = s[:8*char_length]
     
+    if 8*char_length > len(s):
+        print("This bit string is too short. Shame on you.")
+        exit()
+    
     # Step 3: Create a data bit string
     data = ''
     
