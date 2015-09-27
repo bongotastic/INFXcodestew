@@ -4,7 +4,7 @@
 
 # Some string to decode (keep only one uncommented)
 #s = '00100110'
-s = '1100110110101011'
+s = '111010011010101110101011'
 
 
 # Case 1: ASCII character
@@ -60,3 +60,6 @@ else:
     # Convert to integer
     char_int = int(data, 2)
     print('Data as an integer: %d'%(char_int))
+    
+    # Print as unicode
+    print( unichr(char_int ))
