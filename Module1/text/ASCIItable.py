@@ -9,13 +9,13 @@
 print('dec\thex\tASCII\n'+'-'*25)
 
 for ascii_code in range(0,128):
-    # Decimal code
+    # Decimal index
     dec_code = ascii_code
     
-    # hexadecimal score
+    # hexadecimal index
     hex_code = hex(ascii_code)
     
-    # Actual character
+    # Printable character
     ascii = chr(ascii_code)
     
     print("%d\t%s\t%s"%(dec_code, hex_code, ascii))

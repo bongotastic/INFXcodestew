@@ -9,8 +9,8 @@
 print('dec\thex\tUTF\n'+'-'*25)
 
 # Start of range
-begin = 1280
-end   = 2000
+begin = 8280
+end   = 9000
 
 for code in range(begin,end):
     # Decimal code

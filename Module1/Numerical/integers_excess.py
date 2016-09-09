@@ -41,8 +41,10 @@ def DecodeExcess( x ):
 
 
 # Testing area
+
+
 # Define an excess string as the following string variable:
-excess_int = '011'
+excess_int = '1001011'
 print DecodeExcess( excess_int )
     
         

@@ -56,7 +56,7 @@ def DecodeTwosComp( x ):
 
 # Testing area
 # Define an excess string as the following string variable:
-tc_int = '111'
+tc_int = '0111'
 print DecodeTwosComp( tc_int )
     
         

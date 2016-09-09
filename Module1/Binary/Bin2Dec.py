@@ -5,7 +5,7 @@
 '''
 # Setting parameters
 # Enter a string of 0s and 1s
-binary_string = '11010011'
+binary_string = '1010'
 
 ## Conversion
 # Find the number of bits in the string

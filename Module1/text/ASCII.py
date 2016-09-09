@@ -6,7 +6,7 @@
 # Here is how you can convert integer and ASCII characters in Python
 
 # Get input from console
-mychar = raw_input("Enter one character: ")
+mychar = "5"
 
 # Ensures that it is only one charaacter long
 mychar = mychar[0]
